@@ -15,19 +15,19 @@ export default function Page() {
       "No",
       "Are you sure?",
       "What if I asked really nicely?",
-      "Pretty please",
-      "With a chocolate rice cake on top",
-      "What about a matcha frostie",
-      "PLEASE POOKIE",
+      "Vamos di que si",
+      "I'll give you a chocolate rice cookie",
+      "What about a matcha frostie?",
+      "Teffiiiiii",
       "But :*(",
       "I am going to die",
-      "Yep im dead",
-      "ok ur talking to nathan's ghost",
-      "please babe",
-      ":((((",
+      "Yep, im dead",
+      "a",
+      "matthi murio",
+      "babeeee",
+      "What if I still a capybara for you?",
       "PRETTY PLEASE",
       "Estoy muerto",
-      "No :(",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -37,14 +37,14 @@ export default function Page() {
     <div className="-mt-16 flex h-screen flex-col items-center justify-center">
       {yesPressed ? (
         <>
-          <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-          <div className="my-4 text-4xl font-bold">WOOOOOO!!! I love you pookie!! ;))</div>
+          <img src="https://media.tenor.com/rERQsWZaADQAAAAM/cappy-capybara.gif" />
+          <div className="my-4 text-4xl font-bold">chido xd</div>
         </>
       ) : (
         <>
           <img
             className="h-[200px]"
-            src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
+            src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif"
           />
           <h1 className="my-4 text-4xl">Will you be my Valentine?</h1>
           <div className="flex items-center">
